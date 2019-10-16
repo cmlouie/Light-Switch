@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2CF35FE2356E02F007A1E2C /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CF35FD2356E02F007A1E2C /* DescriptionView.swift */; };
+		F2CF36022356F243007A1E2C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CF36012356F243007A1E2C /* Constants.swift */; };
+		F2EF23AF23566FF30053CFEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EF23AE23566FF30053CFEF /* AppDelegate.swift */; };
+		F2EF23B123566FF30053CFEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EF23B023566FF30053CFEF /* SceneDelegate.swift */; };
+		F2EF23B323566FF30053CFEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EF23B223566FF30053CFEF /* ViewController.swift */; };
+		F2EF23B623566FF30053CFEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2EF23B423566FF30053CFEF /* Main.storyboard */; };
+		F2EF23B823566FF50053CFEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EF23B723566FF50053CFEF /* Assets.xcassets */; };
+		F2EF23BB23566FF50053CFEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2EF23B923566FF50053CFEF /* LaunchScreen.storyboard */; };
+		F2EF23C323567DD50053CFEF /* SwitchBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EF23C223567DD50053CFEF /* SwitchBackgroundView.swift */; };
+		F2EF23C5235685020053CFEF /* SwitchHandleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EF23C4235685020053CFEF /* SwitchHandleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2CF35FD2356E02F007A1E2C /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		F2CF36012356F243007A1E2C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F2EF23AB23566FF30053CFEF /* Light Switch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Light Switch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2EF23AE23566FF30053CFEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2EF23B023566FF30053CFEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F2EF23B223566FF30053CFEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2EF23B523566FF30053CFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2EF23B723566FF50053CFEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2EF23BA23566FF50053CFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2EF23BC23566FF50053CFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2EF23C223567DD50053CFEF /* SwitchBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchBackgroundView.swift; sourceTree = "<group>"; };
+		F2EF23C4235685020053CFEF /* SwitchHandleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchHandleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2EF23A823566FF30053CFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2EF23A223566FF30053CFEF = {
+			isa = PBXGroup;
+			children = (
+				F2EF23AD23566FF30053CFEF /* Light Switch */,
+				F2EF23AC23566FF30053CFEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2EF23AC23566FF30053CFEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2EF23AB23566FF30053CFEF /* Light Switch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2EF23AD23566FF30053CFEF /* Light Switch */ = {
+			isa = PBXGroup;
+			children = (
+				F2EF23AE23566FF30053CFEF /* AppDelegate.swift */,
+				F2EF23B023566FF30053CFEF /* SceneDelegate.swift */,
+				F2CF36012356F243007A1E2C /* Constants.swift */,
+				F2EF23C72356CD940053CFEF /* Controller */,
+				F2EF23C62356CD8A0053CFEF /* View */,
+				F2EF23B423566FF30053CFEF /* Main.storyboard */,
+				F2EF23B723566FF50053CFEF /* Assets.xcassets */,
+				F2EF23B923566FF50053CFEF /* LaunchScreen.storyboard */,
+				F2EF23BC23566FF50053CFEF /* Info.plist */,
+			);
+			path = "Light Switch";
+			sourceTree = "<group>";
+		};
+		F2EF23C62356CD8A0053CFEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2CF35FD2356E02F007A1E2C /* DescriptionView.swift */,
+				F2EF23C4235685020053CFEF /* SwitchHandleView.swift */,
+				F2EF23C223567DD50053CFEF /* SwitchBackgroundView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2EF23C72356CD940053CFEF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2EF23B223566FF30053CFEF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2EF23AA23566FF30053CFEF /* Light Switch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2EF23BF23566FF50053CFEF /* Build configuration list for PBXNativeTarget "Light Switch" */;
+			buildPhases = (
+				F2EF23A723566FF30053CFEF /* Sources */,
+				F2EF23A823566FF30053CFEF /* Frameworks */,
+				F2EF23A923566FF30053CFEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Light Switch";
+			productName = "Light Switch";
+			productReference = F2EF23AB23566FF30053CFEF /* Light Switch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2EF23A323566FF30053CFEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Christopher Louie";
+				TargetAttributes = {
+					F2EF23AA23566FF30053CFEF = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = F2EF23A623566FF30053CFEF /* Build configuration list for PBXProject "Light Switch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2EF23A223566FF30053CFEF;
+			productRefGroup = F2EF23AC23566FF30053CFEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2EF23AA23566FF30053CFEF /* Light Switch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2EF23A923566FF30053CFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EF23BB23566FF50053CFEF /* LaunchScreen.storyboard in Resources */,
+				F2EF23B823566FF50053CFEF /* Assets.xcassets in Resources */,
+				F2EF23B623566FF30053CFEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2EF23A723566FF30053CFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EF23C323567DD50053CFEF /* SwitchBackgroundView.swift in Sources */,
+				F2EF23B323566FF30053CFEF /* ViewController.swift in Sources */,
+				F2EF23AF23566FF30053CFEF /* AppDelegate.swift in Sources */,
+				F2EF23C5235685020053CFEF /* SwitchHandleView.swift in Sources */,
+				F2CF36022356F243007A1E2C /* Constants.swift in Sources */,
+				F2EF23B123566FF30053CFEF /* SceneDelegate.swift in Sources */,
+				F2CF35FE2356E02F007A1E2C /* DescriptionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2EF23B423566FF30053CFEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2EF23B523566FF30053CFEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2EF23B923566FF50053CFEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2EF23BA23566FF50053CFEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2EF23BD23566FF50053CFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2EF23BE23566FF50053CFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2EF23C023566FF50053CFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTG3LAJADS;
+				INFOPLIST_FILE = "Light Switch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christopherlouie.Light-Switch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2EF23C123566FF50053CFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTG3LAJADS;
+				INFOPLIST_FILE = "Light Switch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christopherlouie.Light-Switch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2EF23A623566FF30053CFEF /* Build configuration list for PBXProject "Light Switch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EF23BD23566FF50053CFEF /* Debug */,
+				F2EF23BE23566FF50053CFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2EF23BF23566FF50053CFEF /* Build configuration list for PBXNativeTarget "Light Switch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EF23C023566FF50053CFEF /* Debug */,
+				F2EF23C123566FF50053CFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2EF23A323566FF30053CFEF /* Project object */;
+}
